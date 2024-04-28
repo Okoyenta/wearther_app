@@ -116,7 +116,7 @@ class _WeatherPageState extends State<WeatherPage> {
               onPressed: () {
                 _fetchWeather();
               },
-              child: Text('press'),
+              child: const Text('press'),
             ),
           ],
         ),
