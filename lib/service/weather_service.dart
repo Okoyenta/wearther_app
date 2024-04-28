@@ -18,7 +18,7 @@ class WeatherService {
       // print(jsonDecode(response.body));
       return Weather.fromJson(jsonDecode(response.body));
     } else {
-      throw Exception('failed to load weather data');
+      throw Exception('failed to load weather lover data');
     }
   }
 
